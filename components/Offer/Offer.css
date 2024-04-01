@@ -1,0 +1,132 @@
+.offer {
+  width: 80%;
+  height: 60vh;
+  display: flex;
+  margin: auto;
+  padding: 0px 140px;
+  margin-bottom: 150px;
+  background: linear-gradient(180deg, #6289c2 0%, #e1ffea22 60%);
+}
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left h1 {
+  color: #171717;
+  font-size: 50px;
+  font-weight: 600;
+}
+.left p {
+  color: #171717;
+  font-size: 22px;
+  font-weight: 600;
+}
+.left button {
+  width: 282px;
+  height: 70px;
+  border-radius: 35px;
+  background-color: #ff4141;
+  border: none;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 50px;
+}
+@media (max-width: 1280px) {
+  .offer {
+    padding: 0px 80px;
+    margin-bottom: 120px;
+  }
+  .offer h1 {
+    font-size: 40px;
+  }
+  .left p {
+    font-size: 18px;
+  }
+  .left button {
+    width: 220px;
+    height: 50px;
+    font-size: 18px;
+  }
+  .right img {
+    width: 300px;
+  }
+  .right {
+    padding-top: 30px;
+  }
+}
+@media (max-width: 1024px) {
+  .offer {
+    padding: 0px 70px;
+    margin-bottom: 80px;
+    height: 40vh;
+  }
+  .offer h1 {
+    font-size: 30px;
+  }
+  .left p {
+    font-size: 16px;
+  }
+  .left button {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+  }
+  .right img {
+    width: 200px;
+  }
+  .right {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .offer {
+    margin-bottom: 60px;
+  }
+  .offer h1 {
+    font-size: 23px;
+  }
+  .left p {
+    font-size: 15px;
+  }
+  .left button {
+    width: 180px;
+    height: 30px;
+    font-size: 15px;
+  }
+  .right img {
+    width: 150px;
+  }
+}
+@media (max-width: 500px) {
+  .offer {
+    height: 25vh;
+    margin-bottom: 50px;
+  }
+  .offer h1 {
+    font-size: 17px;
+  }
+  .left p {
+    font-size: 10px;
+  }
+  .left button {
+    width: 130px;
+    height: 20px;
+    font-size: 10px;
+    margin-top: 12px;
+  }
+  .right img {
+    width: 120px;
+  }
+}

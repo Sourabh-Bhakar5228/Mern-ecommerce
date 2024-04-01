@@ -1,0 +1,153 @@
+.News-letter {
+  width: 80%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 0px 140px;
+  margin-bottom: 150px;
+  background: linear-gradient(180deg, #4c2209 0%, #e1ffea22 80%);
+  gap: 30px;
+}
+.News-letter h1 {
+  color: #2c2626;
+  font-size: 55px;
+  font-weight: 600;
+}
+
+.News-letter p {
+  color: #454545;
+  font-size: 20px;
+}
+
+.News-letter div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  width: 730px;
+  height: 70px;
+  border-radius: 80px;
+  border: 1px solid #e3e3e3;
+}
+
+.News-letter div input {
+  width: 500px;
+  margin-left: 30px;
+  border: none;
+  outline: none;
+  color: #616161;
+  font-family: "Poppins";
+  font-size: 16px;
+}
+.News-letter div button {
+  width: 210px;
+  height: 70px;
+  border-radius: 80px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+@media (max-width: 1280px) {
+  .News-letter {
+    padding: 0px 80px;
+    margin-bottom: 120px;
+    gap: 20px;
+  }
+  .News-letter h1 {
+    font-size: 45px;
+  }
+  .News-letter p {
+    font-size: 18px;
+  }
+  .News-letter div {
+    width: 600px;
+    height: 60px;
+  }
+  .News-letter div input {
+    width: 400px;
+  }
+  .News-letter div button {
+    width: 160px;
+    height: 60px;
+  }
+}
+@media (max-width: 1024px) {
+  .News-letter {
+    margin-bottom: 70px;
+  }
+  .News-letter h1 {
+    font-size: 30px;
+  }
+  .News-letter p {
+    font-size: 16px;
+  }
+  .News-letter div {
+    width: 500px;
+    height: 50px;
+  }
+  .News-letter div input {
+    width: 300px;
+  }
+  .News-letter div button {
+    width: 140px;
+    height: 50px;
+  }
+}
+@media (max-width: 800px) {
+  .News-letter {
+    margin-bottom: 50px;
+    height: 35vh;
+  }
+  .News-letter h1 {
+    font-size: 25px;
+  }
+  .News-letter p {
+    font-size: 14px;
+  }
+  .News-letter div {
+    width: 400px;
+    height: 40px;
+  }
+  .News-letter div input {
+    width: 200px;
+    font-size: 13px;
+  }
+  .News-letter div button {
+    width: 120px;
+    height: 40px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 500px) {
+  .News-letter {
+    width: 100%;
+    height: 25vh;
+    padding: 0;
+    gap: 15px;
+  }
+  .News-letter h1 {
+    font-size: 18px;
+  }
+  .News-letter p {
+    font-size: 13px;
+    max-width: 200px;
+    text-align: center;
+  }
+  .News-letter div {
+    width: 300px;
+    height: 30px;
+  }
+  .News-letter div input {
+    width: 150px;
+    font-size: 11px;
+  }
+  .News-letter div button {
+    width: 100px;
+    height: 30px;
+    font-size: 11px;
+  }
+}
