@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  height: 100vh;
+  background-color: #f6f6f6;
+}
